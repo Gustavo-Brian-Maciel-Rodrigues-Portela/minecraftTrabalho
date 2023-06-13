@@ -1,27 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minecraft</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <link rel="icon" href="media/icon.png">
-    </head>
+</head>
+
 <body>
     <header id="cabecalho">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img id="logo" src="media/mineTitulo-removebg-preview.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a id="home" class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="mobs" href="#">Mobs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="itens" href="#">Itens</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a id="caixa" class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Jogos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Minecraft Dungeos</a></li>
+                                <li><a class="dropdown-item" href="#">Minecraft Legends</a></li>
+                                <li><a class="dropdown-item" href="#">Minecraft Education</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
     </header>
-    <main>
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+    <main id="principal">
+        <section id="section1">
+            <div class="card" style="width: 30rem;">
+                <img src="media/Minecraft_Creative.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Itens Minecraft</h5>
+                    <p class="card-text">Aqui está um exemplo simples, que mostra alguns itens do jogo.</p>
+                    <a href="https://minecraft.fandom.com/pt/wiki/Item" class="btn btn-primary">Mais itens</a>
+                </div>
             </div>
-          </div>
+        </section>
+
+        <section id="section2">
+            <div class="card" style="width: 30rem;">
+                <img src="media/Minecraft_mobs.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Mobs Minecraft</h5>
+                    <p class="card-text">Aqui está um exemplo simples, que mostra alguns mobs do jogo.</p>
+                    <a href="https://minecraft.fandom.com/wiki/Mob" class="btn btn-primary">Mais itens</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="section3">
+            <div class="card" style="width: 30rem;">
+                <img src="media/temploOceano.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Estruturas Minecraft</h5>
+                    <p class="card-text">Aqui está um exemplo simples, que mostra algumas estruturas do jogo.</p>
+                    <a href="https://minecraft.fandom.com/pt/wiki/Estruturas_geradas" class="btn btn-primary">Mais estruturas
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <footer>
+      <img id="fotter-logo" src="media/mineTitulo-removebg-preview.png" alt="">
+      <p id="integrantes">Integrantes do grupo</p>
+      <p id="gi">Giovanna Rodrigues</p>
+      <p id="gu">Gustavo Brian</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
+
+
 </html>

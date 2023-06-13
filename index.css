@@ -5,15 +5,142 @@
 }
 
 body {
-    height: 100vh;
     width: 100vw;
 }
 
 /*Gi*/
-
-#cabecalho {
+.container-fluid {
+    margin: 0;
+    background-color: #171615;
     height: 20vh;
-    background-color: red;
+}
+
+#logo {
+    width: 200px;
+    position: absolute;
+    left: 80%;
+    top: 30%;
+
+}
+
+.nav-link {
+    color: #A0E081;
+    font-size: 20px;
+}
+
+#home {
+    color: #A0E081;
+}
+
+#home:hover {
+    color: #FFF;
+}
+
+#mobs:hover {
+    color: #FFF;
+}
+
+#itens:hover {
+    color: #FFF;
+}
+
+#caixa {
+    color: #A0E081
+}
+
+#caixa:hover {
+    color: #FFF;
 }
 
 /*Brian*/
+#section1 {
+    background-image: url(media/item.jpg);
+    background-size: cover;
+    background-position-y: -200px;
+    border: 10px solid rgba(0, 0, 0, 0.411);
+    padding: 10px;
+}
+
+#section1 .card {
+    margin: 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 3px dotted green;
+    padding: 10px;
+}
+
+#section2 {
+    background-image: url(media/mobs.jpg);
+    background-size: cover;
+    background-position-y: -200px;
+    border: 10px solid rgba(0, 0, 0, 0.411);
+    padding: 10px;
+}
+
+#section2 .card {
+    margin: 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 3px dotted green;
+    padding: 10px;
+}
+
+#section3 {
+    background-image: url(media/estruturas.jpg);
+    background-size: cover;
+    background-position-y: -200px;
+    border: 10px solid rgba(0, 0, 0, 0.411);
+    padding: 10px;
+}
+
+#section3 .card {
+    margin: 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 3px dotted green;
+    padding: 10px;
+}
+
+/*gi*/
+footer {
+    margin: 0;
+    background-color: #171615;
+    height: 50vh;
+}
+
+#fotter-logo {
+    position: absolute;
+    left: 20%;
+    bottom: -235%;
+}
+
+#integrantes {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #FFF;
+    position: absolute;
+    bottom: -230%;
+    left: 45%;
+}
+
+#gi {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #A0E081;
+    position: absolute;
+    bottom: -235%;
+    left: 47%;
+
+}
+
+#gu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #A0E081;
+    position: absolute;
+    bottom: -240%;
+    left: 49%;
+}
