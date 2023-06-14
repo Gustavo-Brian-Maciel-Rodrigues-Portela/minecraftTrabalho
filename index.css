@@ -54,7 +54,7 @@ body {
 
 /*Brian*/
 #section1 {
-    background-image: url(media/item.jpg);
+    background-image: url(media/item.JPG);
     background-size: cover;
     background-position-y: -200px;
     border: 10px solid rgba(0, 0, 0, 0.411);
